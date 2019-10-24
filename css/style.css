@@ -1,32 +1,38 @@
-body
-  font-size: 14px;
-}
-
+/* Nav Bar */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
+/* body */
 
+body {
+  font-size: 14px;
+}
+
+/* section */
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/* headings */
 h1 {
   font-family sans-serif;
   font-size: 2em;
 }
 
+h3 {
+  font-size: 1.3em;
+}
+
+/* class */
 .example, h3 {
   padding-top: 30px;
   text-align center
-}
-
-h3 {
-  font-size: 1.3em;
 }
 
 .element {
@@ -34,3 +40,9 @@ h3 {
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+/* id */
+#different {
+  background-color: blue;
+
+}
