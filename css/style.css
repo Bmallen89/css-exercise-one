@@ -21,7 +21,7 @@ section {
 
 /* headings */
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
@@ -32,17 +32,19 @@ h3 {
 /* class */
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
 }
-/* id */
-#different {
-  background-color: blue;
 
+.element-diff {
+  background-color: blue;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
 }
